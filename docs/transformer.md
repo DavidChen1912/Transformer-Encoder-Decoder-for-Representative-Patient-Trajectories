@@ -6,7 +6,7 @@
 
 One shared model processes all patients, while preserving each patient's individual input and output. Patient-group labels are used afterward for comparison.
 
-# [Read full manuscript](ot_transformer_manuscript.pdf) · [Download PDF](https://github.com/DavidChen1912/OT-scGHSOM/raw/refs/heads/main/docs/ot_transformer_manuscript.pdf)
+### [Read full manuscript](ot_transformer_manuscript.pdf) · [Download PDF](https://github.com/DavidChen1912/OT-scGHSOM/raw/refs/heads/main/docs/ot_transformer_manuscript.pdf)
 
 ## OT-Transformer Encoder–Decoder Architecture
 
@@ -88,6 +88,7 @@ The diagram illustrates the intended output form. Nodes represent a state at a p
 ![Thousands of candidate paths pass through a Transformer Encoder Decoder to form one representative trajectory with a backbone and an important branch. State labels are illustrative.](chart/representative-trajectory.png)
 
 Each patient receives one trajectory graph, a designated backbone, and an edge table linking retained transitions to their original OT masses and learned gates. Comparisons use the same model and extraction rules across patients.
+
 
 
 
