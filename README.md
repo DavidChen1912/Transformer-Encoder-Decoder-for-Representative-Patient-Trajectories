@@ -75,6 +75,7 @@ All patients train one shared model and receive individual graphs. The highest-o
 
 ![Two-row pre-LayerNorm encoder block with attention, FFN, and two residual connections.](docs/chart/encoder-block.png)
 
-# [Read full manuscript (PDF)](docs/ot_transformer_manuscript.pdf)
+# [Read full manuscript](docs/ot_transformer_manuscript.pdf) · [Download PDF](https://github.com/DavidChen1912/OT-scGHSOM/raw/refs/heads/main/docs/ot_transformer_manuscript.pdf)
+
 
 
