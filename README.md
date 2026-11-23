@@ -75,5 +75,6 @@ All patients train one shared model and receive individual graphs. The highest-o
 
 ![Two-row pre-LayerNorm encoder block with attention, FFN, and two residual connections.](docs/chart/encoder-block.png)
 
-**[For a detailed explanation of the Transformer architecture, mathematical formulation, loss functions, and training procedures, read the full manuscript (PDF).](docs/ot_transformer_manuscript.pdf)**
+# [Read full manuscript (PDF)](docs/ot_transformer_manuscript.pdf)
+
 
