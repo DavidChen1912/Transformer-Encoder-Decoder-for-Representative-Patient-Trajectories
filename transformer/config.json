@@ -1,0 +1,31 @@
+{
+  "data_dir": "transformer/data/CART_0320-0.5-0.5",
+  "output_dir": "transformer/runs/prototype",
+  "seed": 42,
+  "model": {
+    "d_model": 64,
+    "n_heads": 4,
+    "encoder_layers": 2,
+    "ffn_dim": 128,
+    "summary_slots": 2,
+    "dropout": 0.1,
+    "time_scale": 100,
+    "path_chunk_size": 256
+  },
+  "training": {
+    "ot": {
+      "epochs": 100,
+      "learning_rate": 0.001
+    },
+    "structure": {
+      "epochs": 100,
+      "learning_rate": 0.001
+    },
+    "weight_decay": 0.0001,
+    "gradient_clip": 1
+  },
+  "structure": {
+    "lambda": 0.8,
+    "threshold": 0.5
+  }
+}

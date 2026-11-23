@@ -1,0 +1,314 @@
+{
+  "run": "CART_0320-0.5-0.5",
+  "path_assumption": "Markov chaining",
+  "conditional_normalization": "OT row sums after marginal balancing to observed proportions",
+  "mass_columns": "Balanced OT copy; original optimal_transport files remain intact",
+  "marginal_balancing": {
+    "ROS_CART1903": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 2.310651670001107e-15,
+        "max_marginal_error_after": 2.310651670001107e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 3.482369947960251e-11,
+        "max_marginal_error_after": 3.482369947960251e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 1.7763568394002505e-15,
+        "max_marginal_error_after": 1.7763568394002505e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 4.4071855193061893e-10,
+        "max_marginal_error_after": 9.629003844269235e-11,
+        "max_entry_adjustment": 3.444285134879266e-10,
+        "balancing_iterations": 3
+      }
+    ],
+    "ROS_CART1904": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 3.7046588019507e-11,
+        "max_marginal_error_after": 3.7046588019507e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 1.4557799410397365e-14,
+        "max_marginal_error_after": 1.4557799410397365e-14,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 6.661338147750939e-16,
+        "max_marginal_error_after": 6.661338147750939e-16,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 2.824129818890242e-14,
+        "max_marginal_error_after": 2.824129818890242e-14,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ],
+    "ROS_CART1905": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 1.888575962283312e-10,
+        "max_marginal_error_after": 9.565925829235766e-11,
+        "max_entry_adjustment": 5.96346895476163e-11,
+        "balancing_iterations": 6
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 3.654221369941979e-11,
+        "max_marginal_error_after": 3.654221369941979e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 4.440563194929581e-11,
+        "max_marginal_error_after": 4.440563194929581e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 6.661338147750939e-15,
+        "max_marginal_error_after": 6.661338147750939e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ],
+    "ROS_CART1906": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 1.6209256159527285e-13,
+        "max_marginal_error_after": 1.6209256159527285e-13,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 6.661338147750939e-16,
+        "max_marginal_error_after": 6.661338147750939e-16,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 4.801714581503802e-15,
+        "max_marginal_error_after": 4.801714581503802e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 1.1213252548714081e-14,
+        "max_marginal_error_after": 1.1213252548714081e-14,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ],
+    "ROS_CART1907": [
+      {
+        "source": "day1",
+        "target": "day7",
+        "max_marginal_error_before": 4.440892098500626e-15,
+        "max_marginal_error_after": 4.440892098500626e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 4.440892098500626e-16,
+        "max_marginal_error_after": 4.440892098500626e-16,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 4.996003610813204e-16,
+        "max_marginal_error_after": 4.996003610813204e-16,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 2.56263799243428e-11,
+        "max_marginal_error_after": 2.56263799243428e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ],
+    "ROS_CART1908": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 2.4980018054066022e-15,
+        "max_marginal_error_after": 2.4980018054066022e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 2.1003102035344057e-11,
+        "max_marginal_error_after": 2.1003102035344057e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 1.1934897514720433e-15,
+        "max_marginal_error_after": 1.1934897514720433e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 1.8846035843012032e-14,
+        "max_marginal_error_after": 1.8846035843012032e-14,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ],
+    "ROS_CART1909": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 4.107825191113079e-15,
+        "max_marginal_error_after": 4.107825191113079e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 3.47499806707674e-14,
+        "max_marginal_error_after": 3.47499806707674e-14,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 0.0004763735322468876,
+        "max_marginal_error_after": 9.98291727061229e-11,
+        "max_entry_adjustment": 0.0004660126521344121,
+        "balancing_iterations": 3158
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 6.80850931189525e-11,
+        "max_marginal_error_after": 6.80850931189525e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ],
+    "ROS_CART1910": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 4.718447854656915e-16,
+        "max_marginal_error_after": 4.718447854656915e-16,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 3.6992964247417603e-11,
+        "max_marginal_error_after": 3.6992964247417603e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 2.5673907444456745e-15,
+        "max_marginal_error_after": 2.5673907444456745e-15,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 2.4034579881870854e-11,
+        "max_marginal_error_after": 2.4034579881870854e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ],
+    "ROS_CART1911": [
+      {
+        "source": "day0",
+        "target": "day7",
+        "max_marginal_error_before": 6.538691810220598e-11,
+        "max_marginal_error_after": 6.538691810220598e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day7",
+        "target": "day14",
+        "max_marginal_error_before": 9.703098047264547e-11,
+        "max_marginal_error_after": 9.703098047264547e-11,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      },
+      {
+        "source": "day14",
+        "target": "day21",
+        "max_marginal_error_before": 4.994061247876047e-09,
+        "max_marginal_error_after": 9.842285320083022e-11,
+        "max_entry_adjustment": 4.487430477120163e-09,
+        "balancing_iterations": 165
+      },
+      {
+        "source": "day21",
+        "target": "day90",
+        "max_marginal_error_before": 1.2601031329495527e-14,
+        "max_marginal_error_after": 1.2601031329495527e-14,
+        "max_entry_adjustment": 0.0,
+        "balancing_iterations": 0
+      }
+    ]
+  }
+}
